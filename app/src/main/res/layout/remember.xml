@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/first_one"
+        android:layout_width="match_parent"
+        android:layout_height="550dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/content"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="100dp"
+            android:background="#FFFFFF"
+            android:gravity="bottom|center"
+            android:padding="15dp"
+            android:text=""
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/first_one"
+        android:layout_marginTop="1dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/button_next"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="70dp"
+            android:layout_marginBottom="50dp"
+            android:background="#002FA7"
+            android:text="start"
+            android:textColor="#65C294"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+</RelativeLayout>
