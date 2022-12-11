@@ -34,7 +34,13 @@ public enum  SerialNumberEnums {
     p1xa1("(1 + x)^a - 1","0"),
     secx_pic("secx_pic","0"),
     zzsd("x → ∞，增长速度","0"),
-
+    oscillatory_discontinuity("震荡间断点","0"),
+    infinite_discontinuity("无穷间断点","0"),
+    jump_discontinuity("跳跃间断点","0"),
+    removable_discontinuity("可去间断点","0"),
+    infinitesimal_scale("无穷小的比阶","0"),
+    limit_pro("函数极限性质","0"),
+    limit_def("函数极限","0"),
 
 
     start("start","准备开始");
