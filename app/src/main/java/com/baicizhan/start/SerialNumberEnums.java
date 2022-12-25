@@ -45,6 +45,19 @@ public enum  SerialNumberEnums {
     infinitesimal_scale("无穷小的比阶","0"),
     limit_pro("函数极限性质","0"),
     limit_def("函数极限","0"),
+    exponent_function_derivation("幂指函数求导法","0"),
+    logarithmic_function_derivation("对数函数求导法","0"),
+    implicit_function_derivation("隐函数求导法","0"),
+    parametric_equation_function_derivation("参数方程所确定的函数的导数","0"),
+    inverse_function_derivation("反函数的导数","0"),
+    composite_function_derivation("复合函数的导数以及微分形式不变性","0"),
+    piecewise_function_derivation("分段函数的导数","0"),
+    if_differencial("可微的判断","0"),
+    geo_mean_differencial("可微的几何意义","0"),
+    geo_mean_derivative("导数的几何意义","0"),
+    differential_con("微分定义","0"),
+    derivative_con2("导数定义_公式版","0"),
+    derivative_con("导数定义","0"),
 
 
     start("start","准备开始");
