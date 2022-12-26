@@ -58,6 +58,20 @@ public enum  SerialNumberEnums {
     differential_con("微分定义","0"),
     derivative_con2("导数定义_公式版","0"),
     derivative_con("导数定义","0"),
+    variable_limit_integral_derivation("变限积分求导公式","0"),
+    tanx_derivation("tanx的导数","0"),
+    secx_derivation("secx的导数","0"),
+    logax_derivation("logax的导数","0"),
+    lnxx21_derivation("ln(x + (x^2 - 1)^1/2)的导数","0"),
+    lnxx2_1_derivation("ln(x + (x^2 - 1)^1/2)的导数","0"),
+    lnx_derivation("lnx的导数","0"),
+    cscx_derivation("cscx的导数","0"),
+    cotx_derivation("cotx的导数","0"),
+    ax_derivation("ax的导数","0"),
+    arctanx_derivation("arctanx的导数","0"),
+    arcsinx_derivation("arcsinx的导数","0"),
+    arccotx_derivation("arccotx的导数","0"),
+    arccosx_derivation("arccosx的导数","0"),
 
 
     start("start","准备开始");
