@@ -92,6 +92,17 @@ public enum  SerialNumberEnums {
     plumb_asymptote("铅锤渐近线","0"),
     relative_maxmin_def("极大极小值定义","0"),
     absolute_maxmin_def("最大最小值定义","0"),
+    integral_mean_value_theorem("积分中值定理","0"),
+    mclaughlin_formula("麦克劳林公式","0"),
+    taylor_formula("泰勒公式","0"),
+    cauchy_mean_value_theorem("柯西中值定理","0"),
+    lagrange_mean_value_theorem("拉格朗日中值定理","0"),
+    rolle_theorem("罗尔定理","0"),
+    fermat_theorem("费马定理","0"),
+    zero_point_theorem("零点定理","0"),
+    mean_value_theorem("平均值定理","0"),
+    intermediate_value_theorem("介值定理","0"),
+    boundedness_max_theorem("有界与最值定理","0"),
 
 
     start("start","准备开始");
