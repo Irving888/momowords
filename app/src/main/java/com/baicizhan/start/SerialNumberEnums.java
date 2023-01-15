@@ -103,6 +103,12 @@ public enum  SerialNumberEnums {
     mean_value_theorem("平均值定理","0"),
     intermediate_value_theorem("介值定理","0"),
     boundedness_max_theorem("有界与最值定理","0"),
+    rolle6("φ(x) = kx,见到f‘(x) + kf(x)","0"),
+    rolle5("φ(x) = -x,见到f‘(x) - f(x)","0"),
+    rolle4("φ(x) = x,见到f‘(x) + f(x)","0"),
+    rolle3("f‘(x) + f(x)φ(x)","0"),
+    rolle2("f'(x)2 + f(x)f“(x)","0"),
+    rolle1("f(x)f‘(x)","0"),
 
 
     start("start","准备开始");
