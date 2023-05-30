@@ -151,6 +151,16 @@ public enum  SerialNumberEnums {
     rolle_theorem_conclusion("罗尔原话","0"),
     only_root("根是否唯一","0"),
     root_if_exist("判断根是否存在","0"),
+    cosarcsinx("cos(acrsinx)","sin(acrsinx) = √(1 - x^2)"),
+    sinarcsinx("sin(acrsinx)","sin(acrsinx) = x"),
+    cosx_1("cosx - 1","-2sin(x/2)^2"),
+    cosxjia1("cosx + 1","2*cos(x/2)^2"),
+    cosfenzhiyi("1 / cosx^2","1 + tanx^2 = 1/cosx^2 = secx^2"),
+    sinarctanx("sinarctanx","x / √(1 + x^2)"),
+    cosarctanx("cosarctanx","1 / √(1 + x^2)"),
+    cosxsinxsecx("(cosx + sinx) * secx = 1 + tanx","1 / √(1 + x^2)"),
+    propertiescompdefintegral("定积分计算常用性质","0"),
+    methodofsubstitution("换元法常用三角代换","0"),
 
 
     start("start","准备开始");

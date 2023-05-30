@@ -100,7 +100,7 @@ public class RememberActivity extends AppCompatActivity {
 
     private void refreshText(String text) {
         showText = text;
-        content.setTextSize(20);
+        content.setTextSize(40);
         content.setTypeface(Typeface.defaultFromStyle(Typeface.NORMAL));
         content.setText(showText);
     }
